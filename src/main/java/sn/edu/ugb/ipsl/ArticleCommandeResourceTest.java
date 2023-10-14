@@ -4,7 +4,7 @@ import io.restassured.RestAssured;
 import org.junit.jupiter.api.Test;
 
 public class ArticleCommandeResourceTest {
-    private static final String BASE_URI = "http://localhost:8080/AppVenteVelo-1.0-SNAPSHOT/services/articleCommandes";
+    private static final String BASE_URI = "http://localhost:8080/AppVenteVelo-1.0-SNAPSHOT/services/articleCommandes"; //URI de base
 
     @Test
     public void testGetArticleCommandesEndpoint() {
